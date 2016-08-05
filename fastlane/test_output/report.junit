@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites tests='3' failures='0'>
+  <testsuite name='activityViewPracTests' tests='2' failures='0'>
+    <testcase classname='activityViewPracTests' name='testExample' time='0.001'/>
+    <testcase classname='activityViewPracTests' name='testPerformanceExample' time='0.365'/>
+  </testsuite>
+  <testsuite name='ActivityUItestCase' tests='1' failures='0'>
+    <testcase classname='ActivityUItestCase' name='testExample' time='12.120'/>
+  </testsuite>
+</testsuites>
