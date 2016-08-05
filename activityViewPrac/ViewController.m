@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @end
@@ -22,6 +23,24 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)share:(id)sender {
+    
+    NSMutableArray *sharingItems = [NSMutableArray new];
+    
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.yahoo.com.tw"]];
+
+    [sharingItems addObject:url];
+
+    UIActivityViewController *activityViewController =
+    [[UIActivityViewController alloc] initWithActivityItems:sharingItems
+                                      applicationActivities:nil];
+    
+    [self presentViewController:activityViewController
+                                       animated:YES
+                     completion:nil];
+    
 }
 
 @end

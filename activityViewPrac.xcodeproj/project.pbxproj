@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1154718C1D42214600B0F543 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1154718B1D42214600B0F543 /* SnapshotHelper.swift */; };
+		1154718E1D45C63000B0F543 /* ActivityUItestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1154718D1D45C63000B0F543 /* ActivityUItestCase.m */; };
 		119F01731C97E82D00C05CCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 119F01721C97E82D00C05CCD /* main.m */; };
 		119F01761C97E82D00C05CCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 119F01751C97E82D00C05CCD /* AppDelegate.m */; };
 		119F01791C97E82D00C05CCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 119F01781C97E82D00C05CCD /* ViewController.m */; };
@@ -14,7 +16,6 @@
 		119F017E1C97E82D00C05CCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 119F017D1C97E82D00C05CCD /* Assets.xcassets */; };
 		119F01811C97E82D00C05CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119F017F1C97E82D00C05CCD /* LaunchScreen.storyboard */; };
 		119F018C1C97E82D00C05CCD /* activityViewPracTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 119F018B1C97E82D00C05CCD /* activityViewPracTests.m */; };
-		119F01971C97E82D00C05CCD /* activityViewPracUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 119F01961C97E82D00C05CCD /* activityViewPracUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1154718A1D42214500B0F543 /* activityViewPracUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "activityViewPracUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		1154718B1D42214600B0F543 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		1154718D1D45C63000B0F543 /* ActivityUItestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityUItestCase.m; sourceTree = "<group>"; };
 		119F016E1C97E82D00C05CCD /* activityViewPrac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = activityViewPrac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		119F01721C97E82D00C05CCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		119F01741C97E82D00C05CCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,7 +53,6 @@
 		119F018B1C97E82D00C05CCD /* activityViewPracTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = activityViewPracTests.m; sourceTree = "<group>"; };
 		119F018D1C97E82D00C05CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		119F01921C97E82D00C05CCD /* activityViewPracUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = activityViewPracUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		119F01961C97E82D00C05CCD /* activityViewPracUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = activityViewPracUITests.m; sourceTree = "<group>"; };
 		119F01981C97E82D00C05CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,8 +137,10 @@
 		119F01951C97E82D00C05CCD /* activityViewPracUITests */ = {
 			isa = PBXGroup;
 			children = (
-				119F01961C97E82D00C05CCD /* activityViewPracUITests.m */,
+				1154718B1D42214600B0F543 /* SnapshotHelper.swift */,
 				119F01981C97E82D00C05CCD /* Info.plist */,
+				1154718A1D42214500B0F543 /* activityViewPracUITests-Bridging-Header.h */,
+				1154718D1D45C63000B0F543 /* ActivityUItestCase.m */,
 			);
 			path = activityViewPracUITests;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 		119F01661C97E82D00C05CCD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Joseph.Tsai;
 				TargetAttributes = {
@@ -288,7 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				119F01971C97E82D00C05CCD /* activityViewPracUITests.m in Sources */,
+				1154718E1D45C63000B0F543 /* ActivityUItestCase.m in Sources */,
+				1154718C1D42214600B0F543 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +354,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -367,6 +376,8 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Sources/SwiftBridging.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "activityViewPrac-Swift.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -391,6 +402,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -404,6 +417,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Sources/SwiftBridging.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "activityViewPrac-Swift.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -458,10 +473,13 @@
 		119F01A21C97E82D00C05CCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = activityViewPracUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.josephTest.activityViewPracUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "activityViewPracUITests/activityViewPracUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_TARGET_NAME = activityViewPrac;
 				USES_XCTRUNNER = YES;
 			};
@@ -470,10 +488,12 @@
 		119F01A31C97E82D00C05CCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = activityViewPracUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.josephTest.activityViewPracUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "activityViewPracUITests/activityViewPracUITests-Bridging-Header.h";
 				TEST_TARGET_NAME = activityViewPrac;
 				USES_XCTRUNNER = YES;
 			};
@@ -498,6 +518,7 @@
 				119F019D1C97E82D00C05CCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		119F019E1C97E82D00C05CCD /* Build configuration list for PBXNativeTarget "activityViewPracTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +527,7 @@
 				119F01A01C97E82D00C05CCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		119F01A11C97E82D00C05CCD /* Build configuration list for PBXNativeTarget "activityViewPracUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +536,7 @@
 				119F01A31C97E82D00C05CCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
